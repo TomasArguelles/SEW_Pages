@@ -1,0 +1,647 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Rust, el lenguaje de programación</title>
+    <meta name="author" content="Tomás Argüelles Di Renzo" />
+    <meta name="description" content="Pagina principal de la pagina web así como la presentación de la misma" />
+    <meta name="keywords" content="Rust,indice" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+    <nav>
+        <a href="/index.html">Index</a>
+        <a href="/historia.html">Historia</a>
+        <a href="/formulario.html">Formulario de opinión de Rust</a>
+        <a href="/versiones.html">Versiones de Rust</a>
+    </nav>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <h1>Rust, el criptolenguaje</h1>
+    <h2>Versiones del sistema</h2>
+    <table>
+        <caption>
+            <p>Tabla de Versiones</p>
+            <p>En esta tabla se muestran las versiones y su correspondiente estapa de desarrollo, así como notas
+                relevantes de las mismas.</p>
+        </caption>
+        <tbody>
+            <tr>
+                <th>Versión</th>
+                <th>Etapa</th>
+                <th>Nota</th>
+            </tr>
+            <tr>
+                <td> 0.1</td>
+                <td> Pre-Alfa</td>
+                <td> Durante esta etapa el lenguaje solo tenía un desarrollador
+                </td>
+            </tr>
+            <tr>
+                <td> 0.2</td>
+                <td> Pre-Alfa</td>
+                <td> En esta versión se introdujeron clases por primera vez
+                </td>
+            </tr>
+            <tr>
+                <td> 0.3</td>
+                <td> Pre-Alfa</td>
+                <td> En esta versión se agregaron varias características, incluidos destructores y polimorfismo mediante
+                    el uso de interfaces
+                </td>
+            </tr>
+            <tr>
+                <td> 0.4</td>
+                <td> Pre-Alfa</td>
+                <td> En esta versión se eliminaron los typestates
+                </td>
+            </tr>
+            <tr>
+                <td> 0.5</td>
+                <td> Pre-Alfa</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 0.6</td>
+                <td> Pre-Alfa</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 0.7</td>
+                <td> Pre-Alfa</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 0.8</td>
+                <td> Pre-Alfa</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 0.9</td>
+                <td> Pre-Alfa</td>
+                <td> Empezando en esta versión Rust tenía dos tipos de punteros incorporados: ~ y @
+                </td>
+            </tr>
+            <tr>
+                <td> 0.10</td>
+                <td> Pre-Alfa</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 0.11.0</td>
+                <td> Pre-Alfa</td>
+                <td> En esta versión los dos tipos de punteros incorporados, ~ y @, desaparecen
+                </td>
+            </tr>
+            <tr>
+                <td> 0.12.0</td>
+                <td> Pre-Alfa</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.0.0</td>
+                <td> Versión estable</td>
+                <td> Primera versión estable lanzada del lenguaje
+                </td>
+            </tr>
+            <tr>
+                <td> 1.1.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.2.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.3.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.4.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.5.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.6.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.7.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.8.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.9.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.10.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.11.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.12.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.12.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.13.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.14.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.15.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.15.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.16.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.17.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.18.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.19.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.20.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.21.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.22.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.22.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.23.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.24.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.24.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.25.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.26.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.26.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.26.2</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.27.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.27.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.27.2</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.28.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.29.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.29.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.29.2</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.30.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.30.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.31.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.31.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.32.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.33.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.34.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.34.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.34.2</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.35.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.36.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.37.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.38.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.39.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.40.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.41.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.41.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.42.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.43.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.43.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.44.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.44.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.45.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.45.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.45.2</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.46.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.47.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.48.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.49.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.50.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.51.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.52.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.52.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.53.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.54.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.55.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.56.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.56.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.57.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.58.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.58.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.59.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.60.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.61.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.62.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.62.1</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.63.0</td>
+                <td> Versión estable</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td> 1.64.0</td>
+                <td> Versión estable</td>
+                <td> Ultima versión registrada
+            </tr>
+    </table>
+    <!-- la carpeta de recursos gráficos "images" debe estar en el misma carpeta del archivo -->
+    <!-- anadir la sección footer dentro del body despues del párrafo -->
+    <footer>
+        <img src="multimedia/imagenes/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="multimedia/imagenes/CSS3.png" alt="CSS Válido!" />
+    </footer>
+</body>
+
+</html>
