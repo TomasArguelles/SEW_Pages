@@ -170,3 +170,21 @@ article>table {
   margin-right: auto;
   width: 50%;
 }
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+nav{
+  text-align: center;
+}
+
+/* a=0   b=0   c=2   -> Especificidad = 2 */
+nav>a
+{
+  padding: 1em; 
+  font-family: Tahoma, sans-serif;
+  color: #ffffff;
+  background-color:#2820a5; 
+  text-transform: uppercase;
+  text-align: center;     
+  display: inline-block;
+  margin: 1%;
+}
