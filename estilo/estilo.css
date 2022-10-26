@@ -1,3 +1,172 @@
-/*************
-/* Tomás Argüelles Di Renzo UO253628
-/*************
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+main {
+  padding: 2em 1.5em;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+article,
+section {
+  padding: 2em 1.5em;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+header {
+  padding: 1.5em;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+body {
+  font-family: 'Times New Roman', serif;
+  background-color: #e29c5a;
+  color: #000000;
+  position: relative;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+h1,
+h2,
+h3 {
+  padding: 1.07rem;
+  fill: #20B2AA;
+  fill-opacity: inherit;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #000000;
+  background-color: #e29c5a;
+
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+li,
+table,
+p {
+  font-size: 1.08em;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+p {
+
+  padding: 1.2em;
+
+}
+
+/* a=0   b=0   c=2   -> Especificidad = 2 */
+p::first-letter {
+  font-size: 1.05em
+}
+
+
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+h1,
+h3 {
+  font-stretch: expanded;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+h2 {
+  font-style: italic;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+h1 {
+
+  font-size: 1.50em;
+  letter-spacing: 1rem;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+h2 {
+  font-size: 1.18em;
+  margin: 1.2rem;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+h3 {
+  font-size: 1.16em;
+  margin: 1.5rem;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+video {
+  border: 0.2em dotted #00FFFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+audio {
+  border: 0.2em dotted #00FFFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 1em;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+footer {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 0.03em #000000 solid;
+  padding: 5em;
+  font-size: 1.3rem;
+}
+
+/* a=0   b=0   c=2   -> Especificidad = 2 */
+footer a {
+  background-color: #9CB8A7;
+  color: #240000;
+}
+
+/* a=0   b=1   c=2   -> Especificidad = 12 */
+footer a:visited {
+  background-color: #240000;
+  color: #9CB8A7;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+table {
+  border: 0.05em dotted #8B0000;
+  background-color: #FF860B;
+}
+
+/* a=0   b=0   c=1   -> Especificidad = 1 */
+th,
+td {
+  border: 0.03em dotted #8B0000;
+}
+
+/* a=0   b=1   c=2   -> Especificidad = 12 */
+table th:hover {
+  color: #FFFF00;
+  background-color: #0000FF;
+}
+
+/* a=0   b=1   c=2   -> Especificidad = 12 */
+table td:hover {
+  color: #78003C;
+  background-color: #FFFFFF;
+}
+
+/* a=0   b=0   c=2   -> Especificidad = 2 */
+article>table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
