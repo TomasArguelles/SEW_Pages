@@ -38,10 +38,11 @@ h3 {
 }
 
 /* a=0   b=0   c=1   -> Especificidad = 1 */
+dt,
 li,
 table,
 p {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 /* a=0   b=0   c=1   -> Especificidad = 1 */
